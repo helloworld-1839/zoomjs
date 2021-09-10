@@ -59,14 +59,16 @@ Property | Type | Description
 ### Methods
 ### `authorize`
 Authorizes the bot and gains an access token using the client id and secret.
+
 Parameter | Type | Description
 ----------|------|------------
 `client_id` | `String` | The client id of the application.
 `client_secret` | `String` | The client secret of the application.
-&nbsp;
+
 ### `createServer`
 Sets up the server to receive commands.
-Parameter | Type | Optional  | Default| Description
+
+Parameter | Type | Optional  | Default | Description
  -------- | ---- | --------- | ------ | ----------
 `options` | `Object` | `true` | `{}` | The server options.
 `options.port` | `Number` | `true` | `3000` | The port number.
@@ -75,6 +77,7 @@ Parameter | Type | Optional  | Default| Description
 ### Events
 ### `bot_notification`
 Emmited when the bot receives a command.
+
 Parameter | Type | Description
 ----------|------|------------
 `message` | `Zoom.ChatbotMessage` | The message command received.
@@ -109,6 +112,7 @@ Property | Type | Description
 ### Methods
 ### `authorize`
 Replies to this message with text.
+
 Parameter | Type | Description
 ----------|------|------------
 `head` | `String` | The message head text.
